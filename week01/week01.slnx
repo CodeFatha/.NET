@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ContosoPizza/ContosoPizza.csproj" />
+  <Project Path="mslearn-dotnet-files/mslearn-dotnet-files.csproj" />
+</Solution>
