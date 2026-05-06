@@ -1,0 +1,55 @@
+1. Evidence showing existing content and the additional record:
+
+static PizzaService()
+    {
+        Pizzas = new List<Pizza>
+        {
+            new Pizza { Id = 1, Name = "Classic Italian", IsGlutenFree = false },
+            new Pizza { Id = 2, Name = "Veggie", IsGlutenFree = true },
+            new Pizza { Id = 3, Name = "Pepperoni", IsGlutenFree = true }
+        };
+    }
+
+
+[
+  {
+    "id": 1,
+    "name": "Classic Italian",
+    "isGlutenFree": false
+  },
+  {
+    "id": 2,
+    "name": "Veggie",
+    "isGlutenFree": true
+  },
+  {
+    "id": 3,
+    "name": "Pepperoni",
+    "isGlutenFree": true
+  }
+]
+
+
+2. Text copy of the sales summary function: 
+
+void SalesSummaryReport(IEnumerable<string> salesFiles)
+{
+    StringBuilder report = new StringBuilder();
+    report.AppendLine("Sales Summary Report");
+    report.AppendLine("--------------------");
+    report.AppendLine($"Total Sales: {salesTotal}{Environment.NewLine}");
+    report.AppendLine($"Details: ");
+
+    foreach (var file in salesFiles)
+    {
+        string salesJson = File.ReadAllText(file);
+        SalesData? data = JsonConvert.DeserializeObject<SalesData?>(salesJson);
+        SalesTotalData? totalData = JsonConvert.DeserializeObject<SalesTotalData?>(salesJson);
+        if (data?.Total > 0)
+        {
+            report.AppendLine($"{Path.GetFileName(file)}: {data?.Total }");
+        }
+    }
+    File.WriteAllText(Path.Combine(salesTotalDir, "sales_summary.txt"), string.Empty);
+    File.AppendAllText(Path.Combine(salesTotalDir, "sales_summary.txt"), $"{report}");
+}
