@@ -65,7 +65,7 @@ void SalesSummaryReport(IEnumerable<string> salesFiles)
     report.AppendLine("Sales Summary Report");
     report.AppendLine("--------------------");
     report.AppendLine($"Total Sales: {salesTotal}{Environment.NewLine}");
-    report.AppendLine($"Details: {Environment.NewLine}");
+    report.AppendLine($"Details: ");
 
     foreach (var file in salesFiles)
     {
