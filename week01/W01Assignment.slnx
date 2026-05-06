@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FilesApp/FilesApp.csproj" />
+  <Project Path="PizzaApi/PizzaApi.csproj" />
+</Solution>

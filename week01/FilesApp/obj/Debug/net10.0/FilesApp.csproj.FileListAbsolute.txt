@@ -1,0 +1,15 @@
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\bin\Debug\net10.0\FilesApp.exe
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\bin\Debug\net10.0\FilesApp.deps.json
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\bin\Debug\net10.0\FilesApp.runtimeconfig.json
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\bin\Debug\net10.0\FilesApp.dll
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\bin\Debug\net10.0\FilesApp.pdb
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\FilesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\FilesApp.AssemblyInfoInputs.cache
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\FilesApp.AssemblyInfo.cs
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\FilesApp.csproj.CoreCompileInputs.cache
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\FilesApp.sourcelink.json
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\FilesApp.dll
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\refint\FilesApp.dll
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\FilesApp.pdb
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\FilesApp.genruntimeconfig.cache
+C:\Users\BHEKI\Documents\CSE325\.NET\week01\FilesApp\obj\Debug\net10.0\ref\FilesApp.dll
