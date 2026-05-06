@@ -1,1 +1,10 @@
+Sales Summary Report
+--------------------
+Total Sales: 2012.2
 
+Details: 
+sales.json: 88.88
+sales.json: 501.22
+sales.json: 1234.22
+sales.json: 99
+sales.json: 88.88

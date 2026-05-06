@@ -14,6 +14,7 @@ var salesFiles = FindFiles(storesDirectory);
 var salesTotal = Math.Round(CalculateSalesTotal(salesFiles), 2);
 SalesSummaryReport(salesFiles);
 
+File.WriteAllText(Path.Combine(salesTotalDir, "totals.txt"), string.Empty);
 File.AppendAllText(Path.Combine(salesTotalDir, "totals.txt"), $"{salesTotal}{Environment.NewLine}");
 
 IEnumerable<string> FindFiles(string folderName)
@@ -71,13 +72,15 @@ void SalesSummaryReport(IEnumerable<string> salesFiles)
     {
         string salesJson = File.ReadAllText(file);
         SalesData? data = JsonConvert.DeserializeObject<SalesData?>(salesJson);
+        SalesTotalData? totalData = JsonConvert.DeserializeObject<SalesTotalData?>(salesJson);
         if (data?.Total > 0)
         {
-            report.AppendLine($"{Path.GetFileName(Path.GetDirectoryName(file))}: {data?.Total}");
+            report.AppendLine($"{Path.GetFileName(file)}: {data?.Total }");
         }
     }
-
+    File.WriteAllText(Path.Combine(salesTotalDir, "sales_summary.txt"), string.Empty);
     File.AppendAllText(Path.Combine(salesTotalDir, "sales_summary.txt"), $"{report}");
 }
 
-record SalesData (double Total);
+    record SalesData (double Total);
+record SalesTotalData (double overralTotal);
