@@ -51,6 +51,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "The Three Stooges",
+                    ReleaseDate = DateTime.Parse("2003-11-19"),
+                    Genre = "Comedy",
+                    Rating = "PG",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Matrix Reloaded",
+                    ReleaseDate = DateTime.Parse("1999-5-04"),
+                    Genre = "Action",
+                    Rating = "R",
+                    Price = 5.00M
+                },
+                new Movie
+                {
+                    Title = "The Smoke That Tunders",
+                    ReleaseDate = DateTime.Parse("2012-7-31"),
+                    Genre = "Thriller",
+                    Rating = "PG13",
+                    Price = 7.49M
                 }
             );
             context.SaveChanges();
