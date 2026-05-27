@@ -43,6 +43,10 @@
         <span class="@pieces[i]"></span>
     }
 </div>
+<div class="counts">
+    <span class="moves1">Player 1 Moves: @player1Moves</span>
+    <span class="moves2">Player 2 Moves: @player2Moves</span>
+</div>
 
 @code {
 
@@ -52,6 +56,8 @@
 
     private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
     private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";
+    private int player1Moves = 0;
+    private int player2Moves = 0;
     private void PlayPiece(byte col)
     {
         errorMessage = string.Empty;
@@ -61,6 +67,8 @@
             var turn = State.CurrentTurn;
             var landingRow = State.PlayPiece(col);
             pieces[turn] = $"player{player} col{col} drop{landingRow}";
+            if (player == 1) player1Moves++;
+            else player2Moves++;
         }
         catch (ArgumentException ex)
         {

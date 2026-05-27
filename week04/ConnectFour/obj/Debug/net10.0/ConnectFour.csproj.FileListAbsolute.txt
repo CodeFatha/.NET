@@ -159,8 +159,6 @@ C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\compre
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\compressed\6c2w37mbjq-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\compressed\38grwflvg6-{0}-hwaxidwiwj-hwaxidwiwj.gz
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\compressed\fecu9w6d36-{0}-xbbil6v7co-xbbil6v7co.gz
-C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\compressed\8t7ubqbmk6-{0}-4iss80ddjp-4iss80ddjp.gz
-C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\compressed\qps0edvuu1-{0}-4iss80ddjp-4iss80ddjp.gz
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\staticwebassets.development.json
@@ -171,3 +169,5 @@ C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\refint
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\ConnectFour.pdb
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\ConnectFour.genruntimeconfig.cache
 C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\ref\ConnectFour.dll
+C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\compressed\8t7ubqbmk6-{0}-u8gpodt1fn-u8gpodt1fn.gz
+C:\Users\BHEKI\Documents\CSE325\.NET\week04\ConnectFour\obj\Debug\net10.0\compressed\qps0edvuu1-{0}-u8gpodt1fn-u8gpodt1fn.gz
